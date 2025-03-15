@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The EVE Systems</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+        body {
+            font-family: 'Lora', serif;
+            background-color: #FDF8F5;
+            color: #3D3A3A;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #4A5759;
+            padding: 20px;
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+            animation: fadeIn 1s ease-out forwards;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?nature,women,wellness') no-repeat center center/cover;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: #fff;
+            font-size: 36px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            animation: fadeIn 1.5s ease-out 0.5s forwards;
+        }
+        .section {
+            padding: 50px;
+            max-width: 800px;
+            margin: auto;
+            animation: slideUp 1s ease-out forwards;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            margin: 20px;
+            background-color: #A67C52;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 18px;
+            animation: popIn 0.8s ease-out 1.2s forwards;
+        }
+        .button:hover {
+            background-color: #8B5E3C;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes popIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <header>The EVE Systems</header>
+    
+    <div class="hero">
+        <h1>Reclaim Your Power, Naturally</h1>
+        <p>A holistic space for women, by women.</p>
+    </div>
+    
+    <div class="section">
+        <h2>Discover the EVE System</h2>
+        <p>Groundbreaking natural healing tailored for women. No fluff, just real results.</p>
+        <a href="#" class="button">Learn More</a>
+    </div>
+    
+    <div class="section" style="background-color: #EDE0D4; padding: 50px;">
+        <h2>What Makes Us Different?</h2>
+        <p>Backed by science, rooted in nature, and designed with YOU in mind.</p>
+        <a href="#" class="button">Join the Movement</a>
+    </div>
+    
+    <div class="section">
+        <h2>Get Involved</h2>
+        <p>Whether you're an advocate, practitioner, or simply passionate about women's health, there's a place for you here.</p>
+        <a href="#" class="button">Become a Partner</a>
+    </div>
+</body>
+</html>
